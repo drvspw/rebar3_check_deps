@@ -1,5 +1,5 @@
 {application, rebar3_check_deps,
- [{description, "A rebar plugin"},
+ [{description, "A rebar plugin to check if dependencies in rebar.config are included in .app.src"},
   {vsn, "0.1.0"},
   {registered, []},
   {applications,
@@ -10,5 +10,5 @@
   {modules, []},
 
   {licenses, ["Apache 2.0"]},
-  {links, []}
+  {links, [{"Github", "https://github.com/drvspw/rebar3_check_deps.git"}]}
  ]}.
